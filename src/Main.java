@@ -1,9 +1,9 @@
-import pages.StudentPage;
+import pages.LoginPage;
 
 import javax.swing.*;
 
 public class Main {
     public static void main(String[] args) {
-        SwingUtilities.invokeLater(StudentPage::new);
+        SwingUtilities.invokeLater(LoginPage::new);
     }
 }
